@@ -17,3 +17,7 @@
 - [in TypeScript](ts.md)
 - [in Java](java.md)
 - [in C#](cs.md)
+
+
+# Scoring
+- [Scoring table](scoring-table.md)
