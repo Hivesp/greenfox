@@ -10,7 +10,6 @@
 ### What can I use?
 - You can use any resource online, but **please work individually**
 - **Don't just copy-paste** your answers and solutions, use your own words instead.
-- **Don't push your work** to GitHub until your mentor announces that the time is up
 
 
 # Tasks
