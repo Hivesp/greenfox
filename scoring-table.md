@@ -1,6 +1,8 @@
 # Scoring table
 
 To pass this exam you need at least 60% overall.
+You can evaluate your exam based on these pints, if you get difficulties, send an email to:
+`tamas.kokeny[at]greenfoxacademy.com`
 
 | Question | Points |
 |:---------|-----:|
@@ -37,3 +39,4 @@ To pass this exam you need at least 60% overall.
 |methods as described|2|
 |working as described|1|
 |Questions|4|
+
