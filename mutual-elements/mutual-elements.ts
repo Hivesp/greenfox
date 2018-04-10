@@ -14,22 +14,26 @@ function filterMutualElements(a,b){
 	a.forEach(function(element){
 		b.forEach(function(value){
 			if (element === value){
+				//add new values to the array
 				mutualElement.push(value);
 			}
 		});
 	});
+	//it gives back unique values of the array
 	mutualElement =[...new Set(mutualElement)];
 	return mutualElement;
 }
 
 function filterMutualElements_v2(a,b){
-	mutualElement =		a.filter(function(n) {return b.indexOf(n) !== -1;});
+	mutualElement =	a.filter(function(n) {return b.indexOf(n) !== -1;});
+	//it gives back unique values of the array
 	mutualElement =[...new Set(mutualElement)];
 	return mutualElement;
 }
 
-function filterMutualElements_v3(a,b){
+function filterMutualElements_v2b(a,b){
 	mutualElement =	a.filter(n => b.includes(n));
+	//it gives back unique values of the array
 	mutualElement =[...new Set(mutualElement)];
 	return mutualElement;
 }
