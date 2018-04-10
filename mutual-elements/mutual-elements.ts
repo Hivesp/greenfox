@@ -11,14 +11,14 @@ let b = [3, 4, 4, 5, 6];
 
 function filterMutualElements(a,b){
 	var mutualElement=[];
-	a.forEach(function(element){
+	for (i of a){
 		b.forEach(function(value){
-			if (element === value){
-				//add new values to the array
+			if (i === value){
 				mutualElement.push(value);
 			}
 		});
-	});
+
+	}
 	//it gives back unique values of the array
 	mutualElement =[...new Set(mutualElement)];
 	return mutualElement;
