@@ -9,6 +9,21 @@
 let a = [1, 1, 2, 3, 3, 4];
 let b = [3, 4, 4, 5, 6];
 
+function filterMutualElements(a,b){
+	var i = 0;
+	var mutualElement=[];
+	a.forEach(function(element){
+		b.forEach(function(value){
+			if (element === value){
+				mutualElement[i] = value;
+				i+=1;
+			}
+		});
+	});
+	mutualElement =[...new Set(mutualElement)];
+	return mutualElement;
+}
+
 console.log(filterMutualElements(a, b)); 
 // Should print:
 // [3,4]
