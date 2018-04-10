@@ -9,6 +9,8 @@
 let a = [1, 1, 2, 3, 3, 4];
 let b = [3, 4, 4, 5, 6];
 
+
+//all in javascript
 function filterMutualElements(a,b){
 	var mutualElement=[];
 	for (i of a){
