@@ -31,6 +31,12 @@ function filterMutualElements_v2(a,b){
 	return mutualElement;
 }
 
+function filterMutualElements_v3(a,b){
+	mutualElement =	a.filter(n => b.includes(n));
+	mutualElement =[...new Set(mutualElement)];
+	return mutualElement;
+}
+
 console.log(filterMutualElements(a, b)); 
 // Should print:
 // [3,4]
